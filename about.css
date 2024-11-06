@@ -1,0 +1,159 @@
+@import url('http://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    }
+   .navbar .logo{
+    margin-bottom: 180px;
+   }
+    nav{
+        flex: 1;
+        text-align: right;
+        
+    }
+    nav ul{
+        display: inline-block;
+        list-style-type: none;
+    }
+    nav ul li{
+        display: inline-block;
+        margin-right: 20px;
+        margin-bottom: 180px;
+    }
+
+    a{
+        text-decoration: none;
+        color: #555;
+        margin-bottom: 180px;
+    }
+    nav ul li a:hover{
+        color: #ff523b;
+}
+ .header{
+        background: radial-gradient(#fff,#ffd6d6);
+    }
+    .header .row{
+        margin-top: 70px;
+    }
+    .header .container .navbar {
+        padding-bottom: -10px;
+    }
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background: radial-gradient(#fff,#ffd6d6);
+    margin-bottom: 5px;
+    
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section{
+    float: left;
+    width: 55%;
+}
+.image-section{
+    float: right;
+    width: 40%;
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.content-section .title h1{
+    
+}
+.content-section .content h3{
+    margin-top: 20px;
+    color: #030202;
+    font-size: 21px;
+}
+.content-section .content p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.content-section .content .button{
+    margin-top: 30px;
+   
+}
+.content-section .content .button a{
+    background-color: #3d3d3d;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover{
+    background-color: #ff523b;
+    color: #fff;
+}
+.content-section .social img{
+    padding-left: 350px;
+}
+.content-section .social{
+    margin:40px 40px;
+    margin-top: 60px;
+}
+.content-section .social i{
+    color: #ff523b;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+.content-section .social i:hover{
+    color: #3d3d3d;
+}
+@media screen and (max-width: 768px) {
+    .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .content-section{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+}
+    .image-section{
+        float: none;
+        width: 100%;
+    }
+    .image-section img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .content-section .title{
+        text-align: center;
+        font-size: 19px;
+    }
+    .content-section .content .button{
+        text-align: center;
+    }
+    .content-section .content .button a{
+        padding: 9px 30px;
+    }
+    .content-section .social{
+        text-align: center;
+    }
+
+}
